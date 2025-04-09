@@ -9,7 +9,7 @@ import '../utils/log.dart';
 import 'api_sign_utils.dart';
 
 class ApiBase {
-  static const _defaultHost = "https://widget.rozetkapay.com";
+  static const _defaultHost = "widget.rozetkapay.com";
 
   final RozetkaPayApiParams params;
 

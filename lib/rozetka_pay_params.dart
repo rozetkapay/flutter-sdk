@@ -43,6 +43,9 @@ class RozetkaPayParams {
 
 class RozetkaPayApiParams {
   final String key;
+  /// - Specify the host if you want to use a different one than the default;
+  /// - Host should not include the protocol (http/https);
+  /// - default is "widget.rozetkapay.com".
   final String? host;
 
   RozetkaPayApiParams({required this.key, this.host});
